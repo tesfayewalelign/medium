@@ -1,0 +1,156 @@
+
+
+.M1{
+    display: flex;
+    margin-top:20px ;
+   
+
+}
+.M2{
+   
+   
+
+}
+.M3{
+    font-size: 20px;
+    margin-left: 40px;
+
+}
+
+.nav-list{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    margin-left: auto;
+
+}
+.navclas{
+    margin-left: auto;
+}
+.nav-list a{
+   text-decoration: none;
+   color: black;
+   display: flex;
+  
+   padding: 15px;
+   margin-left: auto;
+}
+.butt{
+   
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 24px;
+    font-weight: bold;
+   
+    
+}
+.para1{
+    border: 2px solid transparent rgb(99, 97, 97);
+    
+    background-color: rgb(148, 148, 4);
+   
+   
+   
+    
+
+}
+.text{
+    text-align: center;
+    justify-content: center;
+}
+.human{
+    margin-left: 50px;
+}
+h2{
+    font-size: 80px;
+    margin-left: 50px;
+    font-style: italic;
+
+}
+.p1{
+    margin-left: 50px;
+    font-weight: 100px;
+}
+.submit{
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+}
+.main{
+    display: flex;
+    border: 1px solid transparent rgb(99, 97, 97);
+    width: 100%;
+    height: 450px;
+}
+.im{
+    display: flex;
+    margin-left: auto;
+}
+.image1{
+    width: 400px;
+    height: 400px;
+}
+@media only screen and (max-width: 768px) {
+    .M1 {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .nav-list {
+        flex-direction: column;  
+    }
+
+    .nav-list a {
+        margin-left: 0;
+    }
+
+    .h2 {
+        font-size: 60px; 
+        margin-left: 0;
+        width: 90%;
+    }
+
+    .p1 {
+        margin-left: 0;
+    }
+
+    .submit {
+        width: 100px;
+        height: 40px;
+        margin-left: 0;
+    }
+
+    .main {
+        flex-direction: column;
+        height: auto; 
+    }
+
+    .image1 {
+        width: 80%;
+        height: auto; 
+    }
+}
+@media only screen and (max-width: 400px) {
+    .image1 {
+        width: 60%; 
+        height: auto; 
+    }
+
+    .butt {
+        width: 100px;
+        height: 30px;
+    }
+
+    .submit {
+        width: 150px;
+        height: 40px;
+    }
+}
+    
+      

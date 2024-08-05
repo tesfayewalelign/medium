@@ -1,0 +1,119 @@
+body{
+
+}
+.apple{
+
+    
+}
+.att{
+    display: flex;
+   
+}
+.ap{
+    display: flex;
+    border-bottom: 1px solid rgb(168, 167, 167);
+   
+}
+.idd{
+    font-family: arial;
+    font-weight: bold;
+    margin-left: 60px;
+}
+.inn{
+    font-family: arial;
+    color: gray;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: 40px;
+}
+.apimg{
+    width: 50px;
+    height: 20px;
+    margin-left: 50px;
+}
+.siema{
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+}
+.siema:hover{
+    border-color: blue;
+}
+.true{
+    text-decoration: none;
+}
+.win{
+    width: 270px;
+    font-size: 12px;
+    margin-left: 450px;
+    
+}
+.three{
+    width: 100px;
+    height: 90px;
+}
+.beauty{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.coca{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+@media only screen and (max-width: 768px) {
+    .idd {
+        margin-left: 20px;
+    }
+
+    .inn {
+        margin-right: 20px;
+        font-size: 12px; 
+    }
+
+    .apimg {
+        width: 40px;
+        height: 15px;
+        margin-left: 30px; 
+    }
+
+    .siema {
+        width: 100%; 
+    }
+
+    .win {
+        max-width: 200px;
+    }
+
+    .three {
+        max-width: 80px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .idd,
+    .inn {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .apimg {
+        width: 30px; 
+        height: 10px;
+        margin-left: 20px;
+    }
+
+    .siema {
+        height: 40px; 
+        border-radius: 15px; 
+    }
+
+    .win {
+        max-width: 150px;
+    }
+
+    .three {
+        max-width: 60px;
+    }
+}

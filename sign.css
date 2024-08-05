@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    height: 100%;
+    background-color: black;
+}
+.si{
+    display: grid;
+   place-items: center;
+   height: 100vh;
+    border: 2px solid black;
+    width: 50%;
+    margin: auto;
+   
+    
+    box-shadow: 10px;
+    background-color: white;
+}
+.upgoo{
+    width: 300px;
+    height: 40px;
+    border-radius: 33px;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    font-size: 15px;
+    
+    border: 1px solid black;
+}
+.upfea{
+    width: 300px;
+    height: 40px;
+    border-radius: 33px;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    font-size: 15px;
+    
+    border: 1px solid black;
+}
+.upema{
+    width: 300px;
+    height: 40px;
+    border-radius: 33px;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    font-size: 15px;
+    
+    border: 1px solid black;
+}
+.sss{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.complex{
+    font-size: 2px;
+}
+@media (max-width: 760px) {
+    .si {
+        width: 80%;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .upgoo, .upfea, .upema {
+        font-size: 14px; 
+    }
+}
+
+@media (max-width: 400px) {
+    .si {
+        width: 90%; 
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    }
+
+    .upgoo, .upfea, .upema {
+        font-size: 12px;
+        height: 35px; 
+    }
+}
+

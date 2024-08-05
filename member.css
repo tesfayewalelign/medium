@@ -1,0 +1,344 @@
+body{
+    font-family: arial;
+
+}
+.hebox{
+    display: flex;
+   
+}
+.mid{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 60px;
+
+
+}
+.mein{
+   
+    width: 80px;
+    height: 40px;
+    border-radius: 24px;
+    background-color: white;
+    border: 1px solid;
+    margin-left: 900px;
+   
+
+}
+.meup{
+    width: 80px;
+    height: 40px;
+    border-radius: 24px;
+    background-color:black;
+    border: 1px solid black;
+    margin-left: auto;
+    color: white;
+    margin-left: auto;
+   
+}
+.err{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    background-color: rgb(165, 116, 9);
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+   
+
+}
+.para{
+    text-align: center;
+    justify-content: center;
+
+}
+.tak{
+    display: flex;
+    border-bottom: 1px solid black;
+   
+    border-top: 1px solid black;
+    background-color: rgb(124, 71, 108);
+
+}
+.uuu{
+    font-size: 40px;
+    font-family: helvetica;
+    width: 300px;
+   
+}
+.yoo{
+    width: 300px;
+    font-size: 17px;
+    line-height: 26px;
+
+}
+.get{
+    width: 120px;
+    height: 40px;
+    border-radius: 24px;
+    background-color:black;
+    border: 1px solid;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.view{
+    width: 120px;
+    height: 40px;
+    border-radius: 24px;
+    background-color:rgb(224, 210, 210);
+    border: 1px solid;
+    color: black;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.bbbo{
+    margin-left: 30px;
+   
+}
+.thete{
+    font-size: 30px;
+    width: 400px;
+    margin-left: 450px;
+}
+.amenz{
+    margin-left: auto;
+    margin-top: 100px;
+}
+.wom{
+    width: 80px;
+    height: 50px;
+    border-radius: 100px;
+    margin-left: auto;
+    display: flex;
+}
+.ttt{
+    display: flex;
+    margin-left: 770px;
+}
+.yuu{
+    margin-left: 400px;
+    width: 400px;
+}
+.why{
+    display: flex;
+}
+.classik{
+   
+ font-size: 80px;
+font-weight: bold;
+}
+h5{
+    font-size: 25px;
+    
+}
+p{
+    font-size: 20px;
+    
+    
+    
+}
+.bisho{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    margin-left: 400px;
+}
+.bbc{
+    display: flex;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+    
+}
+.ebc{
+    display: flex;
+   
+}
+p1{
+    
+
+}
+.bisho1{
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    margin-left:400px;
+    
+    
+}
+.core{
+    display: block;
+    margin-top: 30px;
+}
+.wek{
+    display: flex;
+}
+.p1{
+    margin-left: 400px;
+    width: 100px;
+    
+}
+.p2{
+    margin-left: 400px;
+}
+.eff{
+    display: flex;
+    margin-top: 60px;
+}
+.fff{
+    display: flex;
+    margin-top: 60px;
+}
+h3{
+    font-size: 28px;
+    width: 200px;
+}
+.plan{
+    display: flex;
+    border-top: 1px solid black;
+    margin-top: 30px;
+    border-bottom: 1px solid black;
+
+}
+.start{
+    display: flex;
+}
+.brbr{
+    display: grid;
+    border: 1px solid black;
+    width: 300px;
+    height: 500px;
+    margin-left: 30px;
+    box-shadow: 30px;
+}
+.meme{
+    display: flex;
+}
+.gabisa{
+    width: 200px;
+    background-color: green;
+    border-radius: 23px;
+    height: 50px;
+    color: white;
+    margin-left: 40px;
+}
+.behap{
+    font-weight: bold;
+    width: 550px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+
+}
+.hello{
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ggg{
+    text-align: center;
+    justify-content: center;
+}
+.eye{
+    width: 200px;
+    background-color:black;
+    border-radius: 23px;
+    height: 50px;
+    color: white;
+    margin-bottom: 80px;
+}
+h1{
+    font-size: 50px;
+}
+.wis{
+    border-bottom: 1px solid black;
+    text-align: center;
+    justify-content: center;
+}
+.wis:hover{
+    background-color:gray;
+}
+@media (max-width: 760px) {
+    .mid, .thete, .yoo, .bisho, .bisho1, .gabisa, .behap {
+        margin-left: 10px;
+        font-size: 16px; 
+    }
+
+    .thete {
+        width: auto;
+        margin: 0 auto; /* Center the element horizontally */
+    }
+
+    .ttt, .yuu {
+        margin-left: 0;
+    }
+
+    .wom {
+        width: 60px;
+        height: 40px;
+    }
+
+    .brbr {
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+    }
+
+    .core {
+        margin-top: 15px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .eye {
+        width: 150px;
+        height: 40px;
+    }
+}
+
+/* Styles for screens with a max-width of 400px */
+@media (max-width: 400px) {
+    .mid, .thete, .yoo, .bisho, .bisho1, .gabisa, .behap {
+        margin-left: 5px;
+        font-size: 14px; 
+    }
+
+    .thete, .yoo {
+        width: auto;
+    }
+
+    .ttt, .yuu {
+        margin-left: 0;
+    }
+
+    .wom {
+        width: 30px;
+        height: 10px;
+    }
+
+    .brbr {
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+    }
+
+    .core {
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .eye {
+        width: 100px;
+        height: 30px;
+    }
+
+    .para, .ggg {
+        font-size: 14px;
+    }
+}

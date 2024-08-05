@@ -1,0 +1,169 @@
+body{
+    background-color: #d8d3d3fa;
+}
+.gg{
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 20px;
+    width: 70%;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+
+}
+.siii{
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+.brok{
+    display: flex;
+}
+.im{
+    width: 40px;
+    height: 20px;
+    
+}
+.para{
+    font-size: 13px;
+    color: gray;
+}
+.practice{
+  display: flex;  
+}
+.he{
+    font-weight: 10px;
+    font-size: 40px;
+}
+.but{
+    margin-left: auto;
+    margin-top: 8px;
+
+}
+.pho{
+    width: 350px;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.pho:hover{
+    border-color: blue;
+}
+.pho:focus{
+    outline: 2px solid blue
+   
+}
+a{
+    text-decoration: none;
+    margin-top: 5px;
+}
+.for{
+    margin-top: 5px;
+}
+.net{
+    background-color: rgb(56, 56, 209);
+    color: white;
+    width: 70px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 23px;
+    font-size: large;
+    margin-left: 120px;
+}
+.ppp{
+    font-size: 14px;
+    width: 300px;
+    line-height: 20px;
+    margin-top: 40px;
+}
+.boy{
+    margin-left: 30px;
+}
+.oopt{
+    margin-left: 30px;
+    display: flex;
+}
+select{
+    margin-left: 180px;
+    width: 130px;
+    height: 30px;
+    margin-top: 20px;
+}
+.edag{
+    display: flex;
+}
+.tul{
+    display: flex;
+}
+a{
+    margin-left: auto;
+    margin-right: 60px;
+    font-size: 10px;
+
+}
+.ong{
+    text-decoration: none;
+    font-size: 11px;
+    color: gray;
+}
+.pric{
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 11px; 
+    color: gray; 
+}
+.mga{
+    text-decoration: none;
+   margin-left: 5px;
+    font-size: 11px;
+    color: gray;
+}
+@media only screen and (max-width: 768px) {
+    .gg {
+        width: 95%; 
+        padding: 1.5rem; 
+    }
+
+    .pho, .net {
+        width: 100%; 
+    }
+
+    .ppp {
+        width: 100%; 
+        max-width: none;
+    }
+
+    select {
+        width: 100%;
+        margin-left: 0; 
+    }
+
+    .he {
+        font-size: 2rem; 
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .pho {
+        height: 40px; 
+        font-size: 1rem; 
+    }
+
+    .net {
+        width: 100%; 
+        font-size: 1rem;
+        line-height: 40px;
+    }
+
+    .ppp {
+        font-size: 12px; 
+    }
+
+    select {
+        height: 28px; 
+    }
+
+    .he {
+        font-size: 1.5rem; 
+    }
+}

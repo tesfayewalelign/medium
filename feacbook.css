@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(136, 133, 133);
+}
+.feac{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(33, 33, 128, 0.801);
+    
+   
+}
+.acc{
+    
+    padding: 0px;
+    margin: 0px;
+    
+
+}
+.aaa{
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+
+
+
+
+.but{
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    font-weight: bold;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.box{
+    
+    margin-top: 350px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 30px;
+    background-color: white;
+    
+}
+.emal{
+    width: 250px;
+    height: 30px;
+}
+.pass{
+    width: 250px;
+    height: 30px;
+    margin-top: 20px; 
+}
+.log{
+    width: 260px;
+    height: 40px;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    background-color:rgba(33, 33, 128, 0.801); 
+}
+.inside{
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    height: 300px;
+
+}
+.ii{
+    margin-top: 10px;
+    font-style: arial;
+}
+@media only screen and (max-width: 768px) {
+    .aaa {
+        font-size: 2rem; 
+        margin-left: 1rem;
+    }
+
+    .box {
+        width: 95%; 
+        padding: 1.5rem; 
+    }
+
+    .but, .log {
+        width: 100%;
+    }
+
+    .emal, .pass {
+        width: 100%; 
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .aaa {
+        font-size: 1.5rem;
+        margin-left: 0.5rem; 
+    }
+
+    .box {
+        width: 100%; 
+        padding: 1rem;
+    }
+
+    .but, .log {
+        height: 40px; 
+    }
+
+    .emal, .pass {
+        height: 30px;
+    }
+
+    .inside {
+        margin-top: 3rem; 
+    }
+}
+

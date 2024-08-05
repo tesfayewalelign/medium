@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    height: 100%;
+    background-color: black;
+}
+.sig{
+    display: grid;
+   place-items: center;
+   height: 100vh;
+    border: 2px solid black;
+    width: 50%;
+    margin: auto;
+   
+    
+    box-shadow: 10px;
+    background-color: white;
+}
+.fff{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.goo{
+    width: 300px;
+    height: 40px;
+    border-radius: 33px;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    font-size: 15px;
+    
+    border: 1px solid black;
+}
+.fea{
+    width: 300px;
+    height: 40px;
+    border-radius: 33px;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+.tiwt{
+    width: 300px;
+    height: 40px;
+    border-radius: 33px;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+.appl{
+    width: 300px;
+    height: 40px;
+    border-radius: 33px;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+.ema{
+    width: 300px;
+    height: 40px;
+    border-radius: 33px;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+@media only screen and (max-width: 768px) {
+    .sig {
+        width: 95%; 
+        padding: 1.5rem; 
+    }
+
+    .goo,
+    .fea,
+    .tiwt,
+    .appl,
+    .ema {
+        max-width: 100%; 
+        font-size: 14px; 
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .sig {
+        width: 100%; 
+        padding: 1rem; 
+    }
+
+    .goo,
+    .fea,
+    .tiwt,
+    .appl,
+    .ema {
+        height: 35px; 
+        font-size: 13px; 
+    }
+}
